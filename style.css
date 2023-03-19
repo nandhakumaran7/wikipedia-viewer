@@ -1,0 +1,123 @@
+* {
+    color:white;
+    font-family: Comfortaa, Arial, sans-serif;
+  }
+  
+  body {
+    background: #FF7665;
+    background-image: url("https://raw.githubusercontent.com/AkshayJaitly/WikipediaSearch/master/image/Land.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    height: 550px;
+    margin-bottom: 50px;
+    z-index: 1;
+  }
+  
+  a h1 {
+    color: #FDFDFD;
+  }
+  
+  a h1:active {
+    color: #ccc;
+  }
+  
+  h1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+  
+  /* SEARCH BOX */
+  .search-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    max-width: 500px;
+  }
+  #enterSearch{
+    font-family: Comfortaa, Arial, sans-serif;
+  }
+  
+  /** BUTTONS **/
+  
+  .btn {
+    color: #FDFDFD;
+    background: #F89A67;
+    color:white;
+    font-family: Comfortaa, Arial, sans-serif;
+  }
+  
+  .btn:nth-of-type(2) {
+    background: #1abc9c;
+  }
+  
+  .btn:nth-of-type(2):hover {
+    background: #e6e6e6;
+  }
+  
+  .btn, .btn:hover {
+    border-style: none;
+  }
+  /*******/
+  
+  ol {
+    display: block;
+    clear: both;
+    overflow: hidden;
+  }
+  
+  ol li {
+    display: block;
+    background: #FDFDFD;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 1em;
+    box-shadow:
+     1px 1px 0 rgb(51, 166, 205),
+     2px 2px 0 rgb(22, 160, 156),
+     3px 3px 0 rgb(22, 160, 133),
+     4px 4px 0 rgb(22, 160, 133),
+     5px 5px 0 rgb(22, 160, 133),
+     6px 6px 0 rgb(22, 160, 133),
+     7px 7px 0 rgb(22, 160, 133);
+  }
+  
+  
+  /* RESULTS */
+  ol li a {
+    display: inline-block;
+    background: #ffdb30;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  ol li {
+    color: #555;
+    font-size: 1.2em;
+  }
+  
+  .no-result {
+    margin: 5em auto;
+    max-width: 200px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .no-result p {
+    margin: 0; 
+  }
+  
+  #wikipediaLogo{
+    width:3cm;
+    height:3.5cm;
+}
+#conductSearch{
+  
+}

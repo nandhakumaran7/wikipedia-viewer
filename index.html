@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <center>
+        <h1>Wikipedia Viewer</h1>
+
+      <div class="search-box text-center">
+        <div>
+          <p>Click the image to view a random Wikipedia article:</p><br>
+         <a onclick="randomArticle()"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" id="wikipediaLogo" ></a>
+        </div><br>
+        <form class="search-form">
+          <div style="color: black;" id="enterSearch">
+          <input type="search"  id="search-query"  placeholder="Type search here..."autofocus>
+        </div>
+        <div id="conductSearch">
+            <button type="button" class="btn" style="margin-top: 1em;" id="search-btn" >Search</button>
+          </div>
+        </forms> <!-- End Search form -->
+      </div>
+      <section>
+        <h2 id="searchResults">Enter a search to see results here!</h2> 
+    </section>
+    </center>
+      <!-- Search results -->
+      <div class="row result-list">
+        <ol class="search-result col-lg-12 col-sm-12"></ol>
+      </div><!-- End Search results -->
+    </div>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
